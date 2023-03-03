@@ -13,9 +13,9 @@ char *_strncat(char *dest, char *src, int n)
 
 	/* Find the length of dest string */
 	while (dest[dest_len] != '\0')
-			{
-				dest_len++;
-			}
+	{
+		dest_len++;
+	}
 
 	/* Append up to n bytes from src to dest */
 	for (i = 0; i < n && src[i] != '\0'; i++)
@@ -27,5 +27,5 @@ char *_strncat(char *dest, char *src, int n)
 	dest[dest_len + i] = '\0';
 
 	/* Return the resulting string */
-	return dest;
+	return (dest);
 }
