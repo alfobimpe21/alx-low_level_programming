@@ -13,5 +13,6 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 char *rot13(char *);
 char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
 
 #endif /* MAIN_H */
